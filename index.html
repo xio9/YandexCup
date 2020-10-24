@@ -7,15 +7,27 @@
 </head>
 <style>
     .container{
+        position: relative;
         width: 512px;
         height: 512px;
         background-color:#06398a;
+    }
+    .planet--big{
+        position: absolute;
+        background-color: #b0b3b8;
+        width: 100px;
+        height: 100px;
+        left: 15%;
+        top: 10%;
     }
 </style>
 <body>
     <section class="planet">
         <div class="container">
-            
+            <div class="planet--big"></div>
+            <div class="planet--lil1"></div>
+            <div class="planet--lil2"></div>
+            <div class="planet--lil3"></div>
         </div>
         <!-- /container -->
     </section>
